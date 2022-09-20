@@ -1,0 +1,35 @@
+.blog{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.blog-goBack{
+text-decoration: none;
+font-size: .8rem;
+color: #a9a9a9;
+font-weight: 500;
+margin-bottom: 2rem;
+}
+.blog-goBack{
+    text-align: center;
+}
+.blog__date{
+    font-size: .8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+}
+.blog__imageCover{
+    width: 100%;
+}
+.blog__subCategory{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.blog__desc{
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+.blog__subCategory__Two{
+    margin: 1rem;
+}

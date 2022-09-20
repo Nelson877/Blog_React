@@ -17,18 +17,18 @@ const Blog = () => {
   });
 
   return (
-    <div>
+    <div className="blog">
       <Link className="blog-goBack" to="/">
          <span> &#8592;</span> <span>Go Back</span>
       </Link>
       {
         blog ?( <div className="blog__wrap">
-<header>
+<header className="blog__header">
   <p className="blog__date">Published{blog.creatdAt}</p>
   <h1 className="blog__title">{blog.title}</h1>
   <div className="blog__subCategory">
     {blog.subCategory.map((category,index)=>(
-    <div>
+    <div className="blog__subCategory__Two">
       <Chip key={index}  label={category}/>
       </div>
         ))}
