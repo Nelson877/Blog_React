@@ -1,0 +1,29 @@
+.searchbar{
+    background-color: #f0f0f0;
+    width: fit-content;
+    margin: 2.5rem auto 4rem auto;
+    padding: .5rem;
+    border-radius: 5px;
+}
+.searchbar__form{
+    display: flex;
+    align-items: center;
+}
+.searchbar__input{
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
+}
+.search__inputSpan{
+    padding-right: .5rem;
+    cursor: pointer;
+}
+.searchbar__button{
+    outline: none;
+    border: none;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    background-color: #0f52ba;
+    color: #fff;
+    font-weight: 600;
+}

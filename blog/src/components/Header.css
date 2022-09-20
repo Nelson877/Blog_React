@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+}
+.header__title{
+    color: #0080ff;
+    font-size: 2rem;
+}
+.header__span{
+    font-size: 3rem;
+    color: #0f52ba;
+    margin-bottom: 1rem;
+}
+.header__all{
+     color: #b0c4de;
+}
+.header__dis{
+    color: #a9a9a9;
+    font-weight: 500;
+}
